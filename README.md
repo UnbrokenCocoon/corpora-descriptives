@@ -1,5 +1,9 @@
 # corpora-descriptives
 
+The goal of this Repo is to outline the descriptive information from 51 NLTK corpora.
+This provides users with information regarding the average word count change after stop words removed and average word counts.
+
+
 ## Table: Corpus Word Counts
 |    | corpus                |   word_count |   word_count_without_stopwords |   percentage_removed |
 |---:|:----------------------|-------------:|-------------------------------:|---------------------:|
@@ -61,7 +65,17 @@ number of corpora in NLTK 51
 mean percentage removed 21.91
 word count mean 476,471.02
 ```
-## Table 2 
+We can see 397 unique stop words from NLTK and scikit-learn's collections.
+```
+Total number of unique stopwords from NLTK and scikit-learn: 397
+```
+
+From this, we can see the most common stop words being removed. This can help users to decide which stop words are most important to remove.
+We can see from this top 20 list that the difference between the top 5 is considerable to the bottom 5. Therefore, it may be that appending lists of stop words has little effect.
+
+
+
+## Table 2 Most Frequent Stop Words
 |    | word   |   count |
 |---:|:-------|--------:|
 |  0 | the    |  583,580 |
