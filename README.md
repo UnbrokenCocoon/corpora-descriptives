@@ -1,6 +1,6 @@
 # corpora-descriptives
 
-The goal of this Repo is to outline the descriptive information from 51 NLTK corpora.
+The goal of this [repo](https://colab.research.google.com/drive/1dsg3EuT-1EYtUU2Eh9ETHFUarv2PdYgt?usp=sharing) is to outline the descriptive information from 51 NLTK corpora.
 This provides users with information regarding the average word count change after stop words removed and average word counts.
 
 
